@@ -12,9 +12,10 @@ int main(void)
 	{
 		if (k == 9)
 			putchar(k + '0');
-		putchar(k + '0');
-		putchar(',');
-		putchar(' ');
+		else
+			putchar(k + '0');
+			putchar(',');
+			putchar(' ');
 	}
 	return (0);
 
