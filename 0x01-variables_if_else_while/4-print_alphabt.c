@@ -7,19 +7,10 @@
  */
 int main(void)
 {
-	int lower = 'a';
-	while (lower <= 'z')
-	{
-		if (lower == 'e'|| lower == 'q')
-		{
-	lower += 1;
-		}
-		else 
-		{
-			putchar(lower);
-			lower =+ 1;
-		}
-	}
+	char k;
+	for( k = 'a'; k <= 'z'; k++)
+		if( k != 'e' && k != 'q')
+			putchar(k);
 	putchar('\n');
 	return (0);
 
