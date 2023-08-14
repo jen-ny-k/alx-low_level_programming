@@ -6,8 +6,6 @@
  *
  * Return: function that return zero when successful
  */
-
-
 int main(void)
 {
 	int n;
