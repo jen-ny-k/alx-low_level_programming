@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - program entry point
  *
  * Return: returns zero 
  */
-
 int main(void)
 {
 	int low = 'a';
 	int upper = 'A';
+
 	while (low <= 'z')
 	{
 		putchar(low);
