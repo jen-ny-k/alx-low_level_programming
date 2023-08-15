@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  *
- * print_alphabet - using this as our ptototype
+ * print_alphabet - print alphabets
  */
 void print_alphabet(void)
 {
 	char k;
 	
-		for (k = 'a'; k <= 'z'; k++)
+	for (k = 'a'; k <= 'z'; k++)
 	{
 		_putchar(k);
 	}
