@@ -2,6 +2,8 @@
 /**
  * _islower - checks lowers case of character
  *
+ * @c: alphabet collector
+ *
  * Return: 1 if character is lowercase otherwise 0
  */
 int _islower(int c)
