@@ -8,3 +8,6 @@ int is_prime_number(int n);
 int _putchar(char c);
 int sqrt_a(int a, int b);
 int prime_a(int a, int b);
+int strlen_recursion(char *s);
+int comp_str(char *s, int left, int right);
+int is_palindrome(char *s);
